@@ -1,3 +1,5 @@
+let produtos = [];
+
 function addProduto() {
 	let codigo = document.getElementById("codigo").value;
 	let nome = document.getElementById("nome").value;
@@ -40,4 +42,33 @@ function fecharCompra() {
     },
   });
 	window.alert("Compra Registrada!");
+}
+
+
+
+fetch('https://ccc-pharma2018.herokuapp.com/produtos', { 
+ 	method: 'GET' 
+	})
+	.then(function(response) { 
+ 		 response.json()
+  		.then(function(data){
+  			produtos = data;
+  					 }) 
+			})
+
+
+function format() {
+	prod = document.getElementById("wrapper");
+	HTMLtemp = prod.innerHTML;
+	HTMLnovo = prod.innerHTML;
+	for (var i = 0; i < produtos.length; i++) {
+		HTMLnovo = '<div class="format"><h3>Código: ' + produtos[i].codigo + '</h3>' +
+				   '<h3>Nome: ' + produtos[i].nome + '</h3>' +
+				   '<h3>fabricante: ' + produtos[i].fabricante + '</h3>' +
+				   '<h3>preço: R$' + produtos[i].preco + '</h3>' +
+				   '<h3>desconto: ' + produtos[i].desconto + '%</h3></div>';
+		HTMLtemp = HTMLtemp + HTMLnovo;
+	}
+	prod.innerHTML = HTMLtemp;
+	window.alert(produtos);
 }

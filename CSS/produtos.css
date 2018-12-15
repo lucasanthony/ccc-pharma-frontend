@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/CSS/icons/farma.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+	text-decoration: none;
+    font-size: 13px;
+    line-height: 0px;
+    color: darkgrey;
+    font-family: sans-serif;
+    background-color: #000;
+}
+
+
+.format p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.format h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.format {
+    float: left;
+    width: 22%; height: 50%;
+    margin: 10px 20px;
+    height: 30%;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    font-family: sans-serif;
+    border-radius: 50px;
+}

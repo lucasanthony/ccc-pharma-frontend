@@ -1,17 +1,3 @@
-var produtos = [];
-
-fetch('http://localhost:8080/produtos', { 
-  method: 'get' // opcional 
-})
-.then(function(response) { 
-  response.json()
-  .then(function(data){ 
-     produtos = data; 
-   }) 
-})
-.catch(function(err) { console.error(err); });
-
-
 
 function loginPage()
 {
@@ -37,3 +23,9 @@ function disppage()
 {
 location.href="/HTML/disponibilidade.html"
 }
+
+function productpage()
+{
+location.href="/HTML/produtos.html"
+}
+
