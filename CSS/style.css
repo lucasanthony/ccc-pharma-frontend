@@ -43,6 +43,9 @@ input:focus, textarea:focus {
 .button {
     padding-left: 90px;
 }
-button {
+.homeButton {
     margin-left: .5em;
+     width: 200px; height: 100px;
+    background-color: rgba(256,256,256,0.5);
+    float:left;
 }
