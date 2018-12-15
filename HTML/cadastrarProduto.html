@@ -21,12 +21,12 @@
             <p>Situação</p>
             <input type="text" name="" id="situacao" placeholder="Digite a situacão:">
             <div>
-              <label for="categoria">Categoria:</label>
+              <p>Categoria</p>
                 <SELECT id="categoria" name="categoria">
-                 <OPTION>higiene
-                <OPTION>medicamento
-                <OPTION>alimento
-                <OPTION>cosmético
+                 <OPTION>higiene</OPTION>
+                <OPTION>medicamento</OPTION>
+                <OPTION>alimento</OPTION>
+                <OPTION>cosmético</OPTION>
                 </SELECT>
             </div>
              <p>Preço</p>
@@ -34,10 +34,11 @@
              <p>Quantidade</p>
             <input type="text" name="" id="quantidade" placeholder="Digite a quantidade:">
     <div class="button">
-        <button onclick="addProduto()">Cadastrar Produto</button>
+        <button id="addProduto" onclick="addProduto()">Cadastrar Produto</button>
     </div>
-</form>
-    <button onclick="homepage()">Página Inicial</button>
+    </form>
+</div>
+    <button id="homepage" onclick="homepage()">Página Inicial</button>
     <script src="/JS/app.js"></script>
     <script src="/JS/productController.js"></script>
     </body>

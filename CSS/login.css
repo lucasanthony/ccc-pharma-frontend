@@ -17,7 +17,6 @@ body{
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
-/*    vertical-align: middle;*/
     text-decoration:none;
     margin-bottom: 0%;
     margin-top:45%;
@@ -66,7 +65,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.loginbox input[type="text"], input[type="password"]
+.loginbox input[type="text"]
 {
     border: none;
     border-bottom: 1px solid #fff;

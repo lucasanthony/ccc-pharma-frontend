@@ -26,3 +26,7 @@ function homepage()
 location.href="/index.html"
 }
 
+function disppage()
+{
+location.href="/HTML/disponibilidade.html"
+}

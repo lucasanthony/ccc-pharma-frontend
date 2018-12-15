@@ -16,3 +16,18 @@ function addProduto() {
   });
 	window.alert("Produto adicionado!");
 }
+
+function mudarPreco() {
+	let codigo = document.getElementById("codigoUpdate").value;
+	let preco = document.getElementById("precoUpdate").value;
+	let link = 'https://ccc-pharma2018.herokuapp.com/produtos/crud/' + codigo;
+	fetch(link, {
+    method: 'PUT',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: preco
+  });
+	window.alert("Produto deletado!");
+}
