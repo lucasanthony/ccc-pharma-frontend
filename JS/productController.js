@@ -20,7 +20,7 @@ function addProduto() {
 function mudarPreco() {
 	let codigo = document.getElementById("codigoUpdate").value;
 	let preco = document.getElementById("precoUpdate").value;
-	fetch('https://ccc-pharma2018.herokuapp.com/produtos/crud/2', {
+	fetch('https://ccc-pharma2018.herokuapp.com/produtos/crud/'+codigo, {
     method: 'PUT',
     headers: {
       'Accept': 'application/json',
