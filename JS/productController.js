@@ -70,5 +70,4 @@ function format() {
 		HTMLtemp = HTMLtemp + HTMLnovo;
 	}
 	prod.innerHTML = HTMLtemp;
-	window.alert(produtos);
 }

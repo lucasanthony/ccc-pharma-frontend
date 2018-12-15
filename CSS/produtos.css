@@ -1,3 +1,20 @@
+
+header {
+    border:1px solid;
+    padding-left: 45%;
+    padding-right: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 0%;
+    vertical-align: middle;
+    background-color: (0,0,0);
+    color:white;
+    border-radius:6px;
+    font-size: 20px;
+    font-family:cursive;
+  	text-decoration:none;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -44,4 +61,22 @@ body{
     padding: 70px 30px;
     font-family: sans-serif;
     border-radius: 50px;
+}
+
+button
+{
+border: none;
+    outline: none;
+    height: 40px;
+    background: brown;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
 }
