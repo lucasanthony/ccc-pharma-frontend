@@ -71,3 +71,5 @@ function format() {
 	}
 	prod.innerHTML = HTMLtemp;
 }
+
+setTimeout(format(),0);

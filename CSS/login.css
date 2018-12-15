@@ -10,7 +10,7 @@ body{
 }
 
 #homepage {
-       border: none;
+    border: none;
     outline: none;
     height: 40px;
     background: brown;
@@ -21,6 +21,12 @@ body{
     margin-bottom: 0%;
     margin-top:45%;
     margin-left: 0.5%
+}
+
+#homepage:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
 }
 
 .loginbox{

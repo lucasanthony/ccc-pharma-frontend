@@ -27,7 +27,8 @@ function login() {
 	.then(function(response) {
 		response.json()
 		.then(function(data){
-			window.alert(data[0]);
+			window.alert(data);
 		})
 	})
+	window.alert("Login efetuado");
 }
