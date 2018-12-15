@@ -1,9 +1,3 @@
-header {
-	font-size: 50px;
-	font-style: oblique;
-	margin-left: 40%;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -12,65 +6,51 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 
 }
 
-.productbox{
-     width: 320px;
-    height: 1000px;
-    background: #000;
-    color: #fff;
-    top: 90%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-    font-family: sans-serif;
-    border-radius: 50px;
+#header {
+    border:1px solid;
+    padding-left: 45%;
+    padding-right: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 0%;
+    vertical-align: middle;
+    background-color: (0,0,0,0.3);
+    color:white;
+    border-radius:6px;
+    font-size: 20px;
+    font-family:cursive;
+    serif;text-decoration:none;
 }
 
-h1{
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 22px;
+#cadastrar {
+    border:1px solid;
+    padding: 11px 21px;
+    vertical-align: middle;
+    background:#000;
+    color:white;
+    border-radius:6px;
+    font-size: 20px;
+    font-family:helvetica,
+    serif;text-decoration:none;
+    margin-left: 40%;
+    margin-top:20%;
 }
 
-.avatar{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-}
+#login {
+    border:1px solid;
+    padding: 11px 21px;
+    vertical-align: middle;
+    background:#000;
+    color:white;
+    border-radius:6px;
+    font-size: 20px;
+    font-family:helvetica,
+    serif;text-decoration:none;
+    margin-left: 43%;
+    margin-top:0%;
 
-
-.productbox p,{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-}
-
-#categoria {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-}
-
-.productbox input{
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.productbox input[type="text"]
-{
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
 }

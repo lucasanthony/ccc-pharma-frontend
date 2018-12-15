@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(farma.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.productbox{
+     width: 320px;
+    height: 900px;
+    background: #000;
+    color: #fff;
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    font-family: sans-serif;
+    border-radius: 50px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+.productbox p,{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+#categoria {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.productbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.productbox input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}

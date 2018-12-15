@@ -1,8 +1,6 @@
-const URL_TO_FETCH = 'http://localhost:8080/produtos';
-const p = document.getElementById("p");
 var produtos = [];
 
-fetch(URL_TO_FETCH, { 
+fetch('http://localhost:8080/produtos', { 
   method: 'get' // opcional 
 })
 .then(function(response) { 
@@ -32,12 +30,12 @@ function addProduto() {
 	window.alert("Produto adicionado!");
 }
 
-function Nova()
+function loginPage()
 {
 location.href="/HTML/login.html"
 }
 
-function pageProduto()
+function productPage()
 {
 location.href="/HTML/cadastrarProduto.html"
 }
