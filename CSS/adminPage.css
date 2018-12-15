@@ -43,14 +43,14 @@ body{
 #updatebox{
     width: 320px;
     height: 400px;
-    transform: translate(-200%,-210%);
+    transform: translate(-200%,-190%);
     float: left;
 }
 
 #descontobox {
     width: 320px;
     height: 380px;
-    transform: translate(-300%,-90%);
+    transform: translate(-300%,-70%);
     float: left;
 }
 
