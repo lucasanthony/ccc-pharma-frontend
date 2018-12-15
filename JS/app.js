@@ -23,9 +23,9 @@ function cadastropage()
 location.href="/HTML/telacadastro.html"
 }
 
-function productPage()
+function adminPage()
 {
-location.href="/HTML/cadastrarProduto.html"
+location.href="/HTML/adminPage.html"
 }
 
 function homepage()

@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cadastrar Produto</title>
-    <link href="/CSS/cadastrarProduto.css" rel="stylesheet">
+    <link href="/CSS/adminPage.css" rel="stylesheet">
   
 </head>
 <body>
+    <!-- Formulário para cadastro de produtos -->
     <div id="productbox" class="box">
         <img src="/CSS/produtos.jpg" class="avatar">
         <h1>Cadastrar Produto</h1>
@@ -42,6 +43,7 @@
     </form>
 </div>
 
+    <!-- Formulário para mudar preço -->
     <div id="updatebox" class="box">
         <img src="/CSS/preco.jpg" class="avatar">
         <h1>Mudar Preço</h1>
@@ -54,22 +56,30 @@
         </form>
     </div>
 
+    <!-- Formulario para atribuir desconto -->
     <div id="descontobox" class="box">
         <img src="/CSS/desconto.png" class="avatar">
         <h1>Aplicar Desconto</h1>
         <form>
-            <p>Código</p>
-            <input type="text" name="" id="codigoUpdate" placeholder="Digite a categoria:">
             <div>
-              <p>Desconto</p>
-                <SELECT id="desconto" name="desconto">
-                 <OPTION>0%</OPTION>
-                <OPTION>25%</OPTION>
-                <OPTION>50%</OPTION>
-                <OPTION>75%</OPTION>
+              <p>Categoria</p>
+                <SELECT id="categoriaDesconto">
+                 <OPTION>higiene</OPTION>
+                <OPTION>medicamento</OPTION>
+                <OPTION>alimento</OPTION>
+                <OPTION>cosmético</OPTION>
                 </SELECT>
             </div>
-            <input type="submit" id="submitDesconto" onclick="mudarPreco()" value="Aplicar">
+            <div>
+              <p>Desconto (%)</p>
+                <SELECT id="descontoNovo"">
+                 <OPTION>0</OPTION>
+                <OPTION>25</OPTION>
+                <OPTION>50</OPTION>
+                <OPTION>75</OPTION>
+                </SELECT>
+            </div>
+            <input type="submit" onclick="aplicarDesconto()" value="Aplicar">
         </form>
     </div>
 
