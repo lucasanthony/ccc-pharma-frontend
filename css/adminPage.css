@@ -37,8 +37,8 @@ body{
 #comprabox {
     width: 320px;
     height: 320px;
-    transform: translate(-230%,-240%);
-    float: right;
+    transform: translate(-100%,-240%);
+    float: left;
 }
 
 #productbox{
