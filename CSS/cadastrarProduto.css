@@ -106,7 +106,7 @@ option {
     background-color: #000;
 }
 
-#productbox input[type="submit"], #updatebox input[type="submit"], #descontobox input[type="submit"]
+#productbox input[type="submit"], #updatebox input[type="submit"]
 {
     border: none;
     outline: none;
