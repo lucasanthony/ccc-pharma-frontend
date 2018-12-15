@@ -49,3 +49,7 @@ input:focus, textarea:focus {
     background-color: rgba(256,256,256,0.5);
     float:left;
 }
+
+#categoria {
+    width: 300px;
+}
