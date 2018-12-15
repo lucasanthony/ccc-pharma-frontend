@@ -10,18 +10,19 @@
         <h1>Bem-vindo a CCC Pharma</h1>
         <form>
             <p>Usuário</p>
-            <input type="text" name="" placeholder="Digite o usuario:">
+            <input type="text" id="username" " placeholder="Digite o usuario:">
             <p>Senha</p>
-            <input type="password" name="" placeholder="Digite a senha:">
+            <input type="password" id="senha" placeholder="Digite a senha:">
             <label for = "botao">Marque se você é Administrador:
-            <input type="checkbox" name="admin" value="admin"/>
+            <input type="checkbox" id="amdin" value="admin"/>
             </label>
-            <input type="submit" name="" value="Entrar">
+            <input type="submit" onclick="login()" value="Entrar">
             <a href="/HTML/telacadastro.html">Ainda não tem uma conta? Cadastre-se!</a>
         </form>
     </div>
     <button id="homepage" onclick="homepage()">Página Inicial</button>
     <script src="/JS/app.js"></script>
+    <script src="/JS/clientController.js"></script>
 </body>
 </head>
 </html>

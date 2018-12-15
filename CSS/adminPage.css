@@ -34,6 +34,13 @@ body{
     box-sizing: border-box;
 }
 
+#comprabox {
+    width: 320px;
+    height: 320px;
+    transform: translate(-230%,-240%);
+    float: right;
+}
+
 #productbox{
     width: 320px;
     height: 850px;
@@ -83,12 +90,12 @@ h1{
     font-weight: bold;
 }
 
-#productbox input, #updatebox input, #descontobox input{
+#productbox input, #updatebox input, #descontobox input, #comprabox input{
     width: 100%;
     margin-bottom: 20px;
 }
 
-#productbox input[type="text"], select, #updatebox input[type="text"], #descontobox input[type="text"]
+#productbox input[type="text"], select, #updatebox input[type="text"], #descontobox input[type="text"], #comprabox input[type="text"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -105,7 +112,7 @@ option {
     background-color: #000;
 }
 
-#productbox input[type="submit"], #updatebox input[type="submit"], #descontobox input[type="submit"]
+#productbox input[type="submit"], #updatebox input[type="submit"], #descontobox input[type="submit"], #comprabox input[type="submit"]
 {
     border: none;
     outline: none;
@@ -117,7 +124,7 @@ option {
     margin-top: 5px;
 }
 
-#productbox input[type="submit"]:hover, #updatebox input[type="submit"]:hover, #descontobox input[type="submit"]:hover
+#productbox input[type="submit"]:hover, #updatebox input[type="submit"]:hover, #descontobox input[type="submit"]:hover, #comprabox input[type="submit"]:hover
 {
     cursor: pointer;
     background: #ffc107;

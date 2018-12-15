@@ -67,12 +67,23 @@
               <p>Desconto (%)</p>
                 <SELECT id="descontoNovo"">
                  <OPTION>0</OPTION>
+                <OPTION>10</OPTION>
                 <OPTION>25</OPTION>
                 <OPTION>50</OPTION>
-                <OPTION>75</OPTION>
                 </SELECT>
             </div>
             <input type="submit" onclick="aplicarDesconto()" value="Aplicar">
+        </form>
+    </div>
+
+    <!-- Formulário para finalizar compra -->
+    <div id="comprabox" class="box">
+        <img src="/CSS/compra.jpg" class="avatar">
+        <h1>Registrar Compra</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" name="" id="idUser" placeholder="Digite o username do usuario:">
+            <input type="submit" onclick="fecharCompra()" value="Registrar Compra">
         </form>
     </div>
 
