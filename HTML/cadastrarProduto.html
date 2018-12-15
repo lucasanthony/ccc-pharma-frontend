@@ -8,7 +8,7 @@
   
 </head>
 <body>
-    <div class="productbox">
+    <div id="productbox" class="box">
         <img src="/CSS/produtos.jpg" class="avatar">
         <h1>Cadastrar Produto</h1>
         <form>
@@ -44,8 +44,8 @@
     </form>
 </div>
 
-    <div class="updatebox">
-        <img src="/CSS/produtos.jpg" class="avatar">
+    <div id="updatebox" class="box">
+        <img src="/CSS/preco.jpg" class="avatar">
         <h1>Mudar Preço</h1>
         <form>
             <p>Código</p>
@@ -53,6 +53,25 @@
             <p>Preço</p>
             <input type="text" name="" id="precoUpdate" placeholder="Digite o novo preço:">
             <input type="submit" id="submitUpdate" onclick="mudarPreco()" value="Modificar">
+        </form>
+    </div>
+
+    <div id="descontobox" class="box">
+        <img src="/CSS/desconto.png" class="avatar">
+        <h1>Aplicar Desconto</h1>
+        <form>
+            <p>Código</p>
+            <input type="text" name="" id="codigoUpdate" placeholder="Digite a categoria:">
+            <div>
+              <p>Desconto</p>
+                <SELECT id="desconto" name="desconto">
+                 <OPTION>0%</OPTION>
+                <OPTION>25%</OPTION>
+                <OPTION>50%</OPTION>
+                <OPTION>75%</OPTION>
+                </SELECT>
+            </div>
+            <input type="submit" id="submitDesconto" onclick="mudarPreco()" value="Aplicar">
         </form>
     </div>
 

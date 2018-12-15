@@ -26,7 +26,8 @@ function mudarPreco() {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: ({"preco": preco})
+    body: JSON.stringify({"preco": preco})
   });
 	window.alert("Preço alterado!");
 }
+
