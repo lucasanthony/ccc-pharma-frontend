@@ -118,7 +118,7 @@ option {
     margin-top: 5px;
 }
 
-#productbox input[type="submit"]:hover, #updatebox input[type="submit"]:hover, #descontobox input[type="submit"]:hover
+#productbox input[type="submit"]:hover, #updatebox input[type="submit"]:hover
 {
     cursor: pointer;
     background: #ffc107;
