@@ -8,42 +8,31 @@
   
 </head>
 <body>
-	<header>Cadastrar Produto</header>
-
-    <form>
-    <div>
-        <label for="name">Codigo:</label>
-        <input type="text" id="codigo" name="codigo" />
-    </div>
-    <div>
-        <label for="mail">Nome:</label>
-        <input type="text" id="nome" name="nome" />
-    </div>
-    <div>
-        <label for="msg">Fabricante:</label>
-        <input type="text" id="fabricante" name="fabricante" />
-    </div>
-     <div>
-        <label for="msg">Situação:</label>
-        <input type="text" id="situacao" name="situacao" />
-    </div>
-     <div>
-        <label for="categoria">Categoria:</label>
-        <SELECT id="categoria" name="categoria">
-            <OPTION>higiene
-            <OPTION>medicamento
-            <OPTION>alimento
-            <OPTION>cosmético
-</SELECT>
-    </div>
-     <div>
-        <label for="msg">Preço:</label>
-        <input type="text" id="preco" name="preco" />
-    </div>
-     <div>
-        <label for="msg">Quantidade:</label>
-        <input type="text" id="quantidade" name="quantidade" />
-    </div>
+    <div class="productbox">
+        <img src="/CSS/produtos.jpg" class="avatar">
+        <h1>Cadastrar Produto</h1>
+        <form>
+            <p>Código</p>
+            <input type="text" name="" id="codigo" placeholder="Digite o usuario:">
+            <p>Nome</p>
+            <input type="text" name="" id="nome" placeholder="Digite o nome:">
+            <p>Fabricante</p>
+            <input type="text" name="" id="fabricante" placeholder="Digite o fabricante:">
+            <p>Situação</p>
+            <input type="text" name="" id="situacao" placeholder="Digite a situacão:">
+            <div>
+              <label for="categoria">Categoria:</label>
+                <SELECT id="categoria" name="categoria">
+                 <OPTION>higiene
+                <OPTION>medicamento
+                <OPTION>alimento
+                <OPTION>cosmético
+                </SELECT>
+            </div>
+             <p>Preço</p>
+            <input type="text" name="" id="preco" placeholder="Digite o preço:">
+             <p>Quantidade</p>
+            <input type="text" name="" id="quantidade" placeholder="Digite a quantidade:">
     <div class="button">
         <button onclick="addProduto()">Cadastrar Produto</button>
     </div>
