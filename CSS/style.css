@@ -6,7 +6,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
 
 }
 
@@ -27,30 +27,32 @@ body{
 }
 
 #cadastrar {
-    border:1px solid;
-    padding: 11px 21px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration:none;
+    margin-bottom: 0%;
     vertical-align: middle;
-    background:#000;
-    color:white;
-    border-radius:6px;
-    font-size: 20px;
-    font-family:helvetica,
-    serif;text-decoration:none;
     margin-left: 40%;
     margin-top:20%;
 }
 
 #login {
-    border:1px solid;
-    padding: 11px 21px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration:none;
+    margin-bottom: 0%;
     vertical-align: middle;
-    background:#000;
-    color:white;
-    border-radius:6px;
-    font-size: 20px;
-    font-family:helvetica,
-    serif;text-decoration:none;
-    margin-left: 43%;
-    margin-top:0%;
+    margin-left: 43.5%;
+    margin-top:0.2%;
 
 }

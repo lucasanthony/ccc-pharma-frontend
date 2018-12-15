@@ -10,18 +10,18 @@ body{
 }
 
 #homepage {
-    border:1px solid;
-    padding: 11px 21px;
+       border: none;
+    outline: none;
+    height: 40px;
+    background: brown;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
 /*    vertical-align: middle;*/
-    background:#000;
-    color:white;
-    border-radius:6px;
-    font-size: 20px;
-    font-family:helvetica,
-    serif;text-decoration:none;
+    text-decoration:none;
     margin-bottom: 0%;
-
     margin-top:45%;
+    margin-left: 0.5%
 }
 
 .loginbox{
