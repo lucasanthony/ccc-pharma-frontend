@@ -50,7 +50,7 @@ body{
 
 #descontobox {
     width: 320px;
-    height: 350px;
+    height: 380px;
     transform: translate(-300%,-90%);
     float: left;
 }
@@ -84,12 +84,12 @@ h1{
     font-weight: bold;
 }
 
-#productbox input, #updatebox input{
+#productbox input, #updatebox input, #descontobox input{
     width: 100%;
     margin-bottom: 20px;
 }
 
-#productbox input[type="text"], select, #updatebox input[type="text"]
+#productbox input[type="text"], select, #updatebox input[type="text"], #descontobox input[type="text"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -125,7 +125,7 @@ option {
     color: #000;
 }
 
-#addProduto {
+button {
     border: none;
     outline: none;
     height: 40px;

@@ -11,6 +11,8 @@ fetch('http://localhost:8080/produtos', {
 })
 .catch(function(err) { console.error(err); });
 
+
+
 function loginPage()
 {
 location.href="/HTML/login.html"
