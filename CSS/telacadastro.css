@@ -1,17 +1,15 @@
-
 body{
     margin: 0;
     padding: 0;
-    background: url(farma.jpg)no-repeat center center fixed; 
+    background: url(/CSS/farma.jpg)no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 
 #homepage {
-    border: none;
+       border: none;
     outline: none;
     height: 40px;
     background: brown;
@@ -19,47 +17,26 @@ body{
     font-size: 18px;
     border-radius: 20px;
     text-decoration:none;
-    margin-bottom: 45%;
-    margin-top:0.1%;
+    margin-bottom: 0%;
+    margin-top:45%;
     margin-left: 0.5%
 }
 
-.productbox{
-     width: 320px;
-    height: 935px;
-    background: #000;
-    color: #fff;
-    top: 85%;
-    left: 50%;
-    position: relative;
-    transform: translate(-50%,10%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-    font-family: sans-serif;
-    border-radius: 50px;
-}
-
-.updatebox {
+.cadastrobox{
     width: 320px;
-    height: 400px;
+    height: 445px;
     background: #000;
     color: #fff;
-    top: 85%;
+    top: 50%;
     left: 50%;
-    position: relative;
-    transform: translate(-200%,-210%);
+    position: absolute;
+    transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
     font-family: sans-serif;
     border-radius: 50px;
-    float: left;
-}
-
-h1{
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 22px;
+    margin-top: 0%;
+    margin-bottom: 50%;
 }
 
 .avatar{
@@ -71,25 +48,25 @@ h1{
     left: calc(50% - 50px);
 }
 
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
 
-.productbox p,{
+.cadastrobox p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
 
-#categoria {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-}
-
-.productbox input, .updatebox input{
+.cadastrobox input{
     width: 100%;
     margin-bottom: 20px;
 }
 
-.productbox input[type="text"], select, .updatebox input[type="text"]
+.cadastrobox input[type="text"], input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -100,14 +77,9 @@ h1{
     font-size: 16px;
 }
 
-option {
-    color: #fff;
-    background: transparent;
-}
-
-.productbox input[type="submit"], .updatebox input[type="submit"]
+.cadastrobox input[type="submit"]
 {
-    border: none;
+border: none;
     outline: none;
     height: 40px;
     background: brown;
@@ -115,9 +87,21 @@ option {
     font-size: 18px;
     border-radius: 20px;
 }
-.productbox input[type="submit"]:hover, .updatebox input[type="submit"]:hover
+
+.cadastrobox input[type="submit"]:hover
 {
     cursor: pointer;
     background: #ffc107;
     color: #000;
+}
+.cadastrobox a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 0px;
+    color: darkgrey;
+    font-family: sans-serif;
+}
+.cadastrobox a:hover
+{
+    color: #ffc107;
 }

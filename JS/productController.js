@@ -20,14 +20,13 @@ function addProduto() {
 function mudarPreco() {
 	let codigo = document.getElementById("codigoUpdate").value;
 	let preco = document.getElementById("precoUpdate").value;
-	let link = 'https://ccc-pharma2018.herokuapp.com/produtos/crud/' + codigo;
-	fetch(link, {
+	fetch('https://ccc-pharma2018.herokuapp.com/produtos/crud/2', {
     method: 'PUT',
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: preco
+    body: ({"preco": preco})
   });
-	window.alert("Produto deletado!");
+	window.alert("Preço alterado!");
 }

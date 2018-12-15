@@ -13,13 +13,18 @@
         <h1>Cadastrar Produto</h1>
         <form>
             <p>Código</p>
-            <input type="text" name="" id="codigo" placeholder="Digite o usuario:">
+            <input type="text"  id="codigo" placeholder="Digite o usuario:">
             <p>Nome</p>
-            <input type="text" name="" id="nome" placeholder="Digite o nome:">
+            <input type="text"  id="nome" placeholder="Digite o nome:">
             <p>Fabricante</p>
-            <input type="text" name="" id="fabricante" placeholder="Digite o fabricante:">
-            <p>Situação</p>
-            <input type="text" name="" id="situacao" placeholder="Digite a situacão:">
+            <input type="text" id="fabricante" placeholder="Digite o fabricante:">
+            <div>
+              <p>Situação</p>
+                <SELECT id="situacao" name="situacao">
+                 <OPTION>true</OPTION>
+                <OPTION>false</OPTION>
+                </SELECT>
+            </div>
             <div>
               <p>Categoria</p>
                 <SELECT id="categoria" name="categoria">
@@ -30,14 +35,28 @@
                 </SELECT>
             </div>
              <p>Preço</p>
-            <input type="text" name="" id="preco" placeholder="Digite o preço:">
+            <input type="text" id="preco" placeholder="Digite o preço:">
              <p>Quantidade</p>
-            <input type="text" name="" id="quantidade" placeholder="Digite a quantidade:">
+            <input type="text" id="quantidade" placeholder="Digite a quantidade:">
     <div class="button">
         <button id="addProduto" onclick="addProduto()">Cadastrar Produto</button>
     </div>
     </form>
 </div>
+
+    <div class="updatebox">
+        <img src="/CSS/produtos.jpg" class="avatar">
+        <h1>Mudar Preço</h1>
+        <form>
+            <p>Código</p>
+            <input type="text" name="" id="codigoUpdate" placeholder="Digite o código:">
+            <p>Preço</p>
+            <input type="text" name="" id="precoUpdate" placeholder="Digite o novo preço:">
+            <input type="submit" id="submitUpdate" onclick="mudarPreco()" value="Modificar">
+        </form>
+    </div>
+
+
     <button id="homepage" onclick="homepage()">Página Inicial</button>
     <script src="/JS/app.js"></script>
     <script src="/JS/productController.js"></script>

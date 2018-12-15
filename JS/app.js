@@ -16,6 +16,11 @@ function loginPage()
 location.href="/HTML/login.html"
 }
 
+function cadastropage()
+{
+location.href="/HTML/telacadastro.html"
+}
+
 function productPage()
 {
 location.href="/HTML/cadastrarProduto.html"
