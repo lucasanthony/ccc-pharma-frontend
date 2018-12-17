@@ -44,6 +44,22 @@ function fecharCompra() {
 	window.alert("Compra Registrada!");
 }
 
+function aplicarDesconto() {
+	let desconto = document.getElementById("descontoNovo").value;
+	let codigo = document.getElementById("categoriaDesconto").value;
+
+	fetch('https://ccc-pharma2018.herokuapp.com/produtos/desconto/' + codigo, {
+		method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+		},
+		body: JSON.stringify(desconto)
+	});
+	window.alert("Desconto aplicado!");
+}
+
+
 
 
 fetch('https://ccc-pharma2018.herokuapp.com/produtos', { 
