@@ -48,8 +48,8 @@ function aplicarDesconto() {
 	let desconto = document.getElementById("descontoNovo").value;
 	let codigo = document.getElementById("categoriaDesconto").value;
 
-	fetch('https://ccc-pharma2018.herokuapp.com/produtos/desconto/' + codigo, {
-		method: 'POST',
+	fetch('https://ccc-pharma2018.herokuapp.com/produtos/desconto/'+codigo, {
+		method: 'PUT',
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
